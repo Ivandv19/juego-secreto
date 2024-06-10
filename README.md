@@ -16,7 +16,7 @@ El juego consiste en adivinar un número entre 1 y 10. El jugador ingresa un nú
 
 El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace:
 
-[Enlace a Vercel](https://vercel.com/ivanmx19s-projects/juego-secreto)
+[Enlace a Vercel](https://juego-secreto-6iliepra3-ivanmx19s-projects.vercel.app/)
 
 ## Autor
 
