@@ -12,6 +12,12 @@ El juego consiste en adivinar un número entre 1 y 10. El jugador ingresa un nú
 - **style.css:** Archivo CSS que contiene los estilos para el juego.
 - **app.js:** Archivo JavaScript que contiene la lógica del juego.
 
+## Despliegue
+
+El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace:
+
+[Enlace a Vercel](https://vercel.com/ivanmx19s-projects/juego-secreto)
+
 ## Autor
 
 - Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
