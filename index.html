@@ -1,38 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> <!-- Etiqueta raíz del documento, indica el idioma -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!-- Configuración de codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la escala inicial del viewport -->
+
+    <!-- Enlaces a las fuentes utilizadas -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
         rel="stylesheet">
+
+    <!-- Enlace al archivo de estilos CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Título de la página -->
     <title>JS Game</title>
 </head>
 
 <body>
 
+    <!-- Contenedor principal -->
     <div class="container">
         <div class="container__contenido">
+            <!-- Contenedor de información del juego -->
             <div class="container__informaciones">
+                <!-- Contenedor del texto informativo -->
                 <div class="container__texto">
+                    <!-- Título principal -->
                     <h1></h1>
+                    <!-- Párrafo de texto informativo -->
                     <p class="texto__parrafo"></p>
                 </div>
+                <!-- Input para que el usuario ingrese un número -->
                 <input type="number" id="valorUsuario" min="1" max="10" class="container__input">
+                <!-- Contenedor de los botones -->
                 <div class="chute container__botones">
+                    <!-- Botón para verificar el intento -->
                     <button onclick="verificarIntento();" class="container__boton">Intentar</button>
+                    <!-- Botón para reiniciar el juego -->
                     <button onclick="reiniciarJuego();" class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
                 </div>
             </div>
+            <!-- Imagen de una persona mirando a la izquierda -->
             <img src="./img/ia.png" alt="Una persona mirando a la izquierda" class="container__imagen-persona" />
         </div>
     </div>
 
-
-
+    <!-- Enlace al archivo de script de JavaScript -->
     <script src="app.js"></script>
 
 </body>
