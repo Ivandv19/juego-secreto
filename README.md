@@ -1,39 +1,38 @@
 # JS Game
 
-Este es un juego simple implementado en JavaScript.
+JS Game es un juego simple desarrollado en JavaScript que desafía al usuario a adivinar un número aleatorio.
 
-## Descripción
+## Funcionamiento
 
-El juego consiste en adivinar un número entre 1 y 10. El jugador ingresa un número y el juego le informa si es demasiado alto, demasiado bajo o si adivinó correctamente. Una vez que el jugador adivina el número correcto, puede optar por iniciar un nuevo juego.
+El juego presenta al usuario un campo de entrada donde puede ingresar un número entre 1 y 10. Luego, al presionar el botón "Intentar", el juego verifica si el número ingresado coincide con el número aleatorio generado. Si coincide, el juego muestra un mensaje de éxito y habilita el botón "Nuevo juego" para que el usuario pueda jugar de nuevo. Si no coincide, el juego informa al usuario si el número ingresado es mayor o menor que el número aleatorio.
 
-## Contenido del Repositorio
-
-- **index.html:** Archivo HTML que contiene la estructura del juego.
-- **style.css:** Archivo CSS que contiene los estilos para el juego.
-- **app.js:** Archivo JavaScript que contiene la lógica del juego.
-
-## Despliegue
-
-El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace:
-
-[Enlace a Vercel](https://juego-secreto-6iliepra3-ivanmx19s-projects.vercel.app/)
-
-## Autor
-
-- Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
-- Créditos a [Alura Latam](https://www.linkedin.com/in/ivan-cruz-1906mx/).
-
-## Tecnologías Utilizadas
-
-- HTML
-- CSS
-- JavaScript
-
-## Uso
+## Cómo jugar
 
 1. Abre el archivo `index.html` en tu navegador web.
 2. Ingresa un número entre 1 y 10 en el campo de entrada.
 3. Haz clic en el botón "Intentar" para verificar tu intento.
-4. Sigue las indicaciones del juego para saber si tu número es demasiado alto, demasiado bajo o correcto.
-5. Si adivinas correctamente, puedes hacer clic en "Nuevo juego" para comenzar de nuevo.
+4. Si adivinas el número, verás un mensaje de éxito y podrás jugar de nuevo haciendo clic en "Nuevo juego".
+5. Si no adivinas el número, el juego te indicará si el número ingresado es mayor o menor que el número aleatorio.
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Créditos
+
+- Este juego fue desarrollado como parte de un ejercicio de práctica en JavaScript.
+- La imagen de la persona mirando a la izquierda fue obtenida de recursos gratuitos de Internet.
+- Desarrollado por [Alura Latam](https://www.linkedin.com/company/alura-latam/).
+- Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
+
+## Despliegue
+
+El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [JS Game](https://juego-secreto-liart.vercel.app/).
+
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT.
 
