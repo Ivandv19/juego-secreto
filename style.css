@@ -5,7 +5,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: white; /* Color de texto predeterminado */
+    color: white;
+    /* Color de texto predeterminado */
 }
 
 /* Estilos del cuerpo de la página */
@@ -13,10 +14,14 @@
 body {
     /* Fondo degradado para el cuerpo */
     background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
-    height: 100vh; /* Altura del cuerpo igual al 100% del viewport */
-    display: flex; /* Flexbox para centrar el contenido verticalmente */
-    align-items: center; /* Centra verticalmente los elementos */
-    justify-content: center; /* Centra horizontalmente los elementos */
+    height: 100vh;
+    /* Altura del cuerpo igual al 100% del viewport */
+    display: flex;
+    /* Flexbox para centrar el contenido verticalmente */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    justify-content: center;
+    /* Centra horizontalmente los elementos */
 }
 
 /* Pseudo-elemento antes del cuerpo */
@@ -25,118 +30,171 @@ body::before {
     /* Imagen de fondo para el pseudo-elemento */
     background-image: url("img/code.png");
     background-repeat: no-repeat;
-    background-position: right; /* Posición de la imagen */
-    content: ""; /* Contenido del pseudo-elemento */
-    display: block; /* Bloque */
-    position: absolute; /* Posicionamiento absoluto */
-    width: 100%; /* Ancho igual al 100% */
-    height: 100%; /* Altura igual al 100% */
-    opacity: 0.4; /* Opacidad */
+    background-position: right;
+    /* Posición de la imagen */
+    content: "";
+    /* Contenido del pseudo-elemento */
+    display: block;
+    /* Bloque */
+    position: absolute;
+    /* Posicionamiento absoluto */
+    width: 100%;
+    /* Ancho igual al 100% */
+    height: 100%;
+    /* Altura igual al 100% */
+    opacity: 0.4;
+    /* Opacidad */
 }
 
 /* Contenedor principal */
 
 .container {
-    width: 1200px; /* Ancho del contenedor */
-    height: 600px; /* Altura del contenedor */
-    display: flex; /* Flexbox */
-    align-items: center; /* Centra verticalmente los elementos */
-    justify-content: space-between; /* Espacio entre los elementos */
-    border-radius: 24px; /* Borde redondeado */
-    border: 1px solid #1875E8; /* Borde */
-    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15); /* Sombra */
-    background-image: url("img/Ruido.png"); /* Imagen de fondo */
-    background-size: 100% 100%; /* Tamaño de fondo */
-    position: relative; /* Posicionamiento relativo */
+    width: 1200px;
+    /* Ancho del contenedor */
+    height: 600px;
+    /* Altura del contenedor */
+    display: flex;
+    /* Flexbox */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    justify-content: space-between;
+    /* Espacio entre los elementos */
+    border-radius: 24px;
+    /* Borde redondeado */
+    border: 1px solid #1875E8;
+    /* Borde */
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    /* Sombra */
+    background-image: url("img/Ruido.png");
+    /* Imagen de fondo */
+    background-size: 100% 100%;
+    /* Tamaño de fondo */
+    position: relative;
+    /* Posicionamiento relativo */
 }
 
 /* Contenido dentro del contenedor */
 
 .container__contenido {
-    display: flex; /* Flexbox */
-    align-items: center; /* Centra verticalmente los elementos */
-    position: absolute; /* Posicionamiento absoluto */
-    bottom: 0; /* Alinear en la parte inferior */
+    display: flex;
+    /* Flexbox */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    position: absolute;
+    /* Posicionamiento absoluto */
+    bottom: 0;
+    /* Alinear en la parte inferior */
 }
 
 /* Información dentro del contenedor */
 
 .container__informaciones {
-    flex: 1; /* Flex */
-    padding: 3rem; /* Relleno */
+    flex: 1;
+    /* Flex */
+    padding: 3rem;
+    /* Relleno */
 }
 
 /* Estilos de los botones */
 
 .container__boton {
-    border-radius: 16px; /* Borde redondeado */
-    background: #1875E8; /* Color de fondo */
-    padding: 16px 24px; /* Relleno */
-    width: 100%; /* Ancho del botón */
-    font-size: 24px; /* Tamaño de fuente */
-    font-weight: 700; /* Grosor de la fuente */
-    border: none; /* Sin borde */
-    margin-top: 2rem; /* Margen superior */
+    border-radius: 16px;
+    /* Borde redondeado */
+    background: #1875E8;
+    /* Color de fondo */
+    padding: 16px 24px;
+    /* Relleno */
+    width: 100%;
+    /* Ancho del botón */
+    font-size: 24px;
+    /* Tamaño de fuente */
+    font-weight: 700;
+    /* Grosor de la fuente */
+    border: none;
+    /* Sin borde */
+    margin-top: 2rem;
+    /* Margen superior */
 }
 
 /* Estilos del botón deshabilitado */
 
 .container__boton:disabled {
-    background: #898989; /* Color de fondo para botón deshabilitado */
+    background: #898989;
+    /* Color de fondo para botón deshabilitado */
 }
 
 /* Estilos del texto dentro del contenedor */
 
 .container__texto {
-    margin: 16px 0 16px 0; /* Margen */
+    margin: 16px 0 16px 0;
+    /* Margen */
 }
 
 /* Estilos para texto en azul */
 
 .container__texto-azul {
-    color: #1875E8; /* Color de texto azul */
+    color: #1875E8;
+    /* Color de texto azul */
 }
 
 /* Estilos del campo de entrada */
 
 .container__input {
-    width: 100%; /* Ancho del campo de entrada */
-    height: 72px; /* Altura del campo de entrada */
-    border-radius: 16px; /* Borde redondeado */
-    background-color: #FFF; /* Color de fondo */
-    border: none; /* Sin borde */
-    color: #1875E8; /* Color de texto */
-    padding: 2rem; /* Relleno */
-    font-size: 24px; /* Tamaño de fuente */
-    font-weight: 700; /* Grosor de la fuente */
-    font-family: 'Inter', sans-serif; /* Fuente */
+    width: 100%;
+    /* Ancho del campo de entrada */
+    height: 72px;
+    /* Altura del campo de entrada */
+    border-radius: 16px;
+    /* Borde redondeado */
+    background-color: #FFF;
+    /* Color de fondo */
+    border: none;
+    /* Sin borde */
+    color: #1875E8;
+    /* Color de texto */
+    padding: 2rem;
+    /* Relleno */
+    font-size: 24px;
+    /* Tamaño de fuente */
+    font-weight: 700;
+    /* Grosor de la fuente */
+    font-family: 'Inter', sans-serif;
+    /* Fuente */
 }
 
 /* Estilos para los botones dentro del contenedor */
 
 .container__botones {
-    display: flex; /* Flexbox */
-    gap: 2em; /* Espaciado entre los botones */
+    display: flex;
+    /* Flexbox */
+    gap: 2em;
+    /* Espaciado entre los botones */
 }
 
 /* Estilos para el encabezado */
 
 h1 {
-    font-family: 'Chakra Petch', sans-serif; /* Fuente */
-    font-size: 72px; /* Tamaño de fuente */
-    padding-bottom: 3rem; /* Relleno inferior */
+    font-family: 'Chakra Petch', sans-serif;
+    /* Fuente */
+    font-size: 72px;
+    /* Tamaño de fuente */
+    padding-bottom: 3rem;
+    /* Relleno inferior */
 }
 
 /* Estilos para párrafos y botones */
 
 p,
 button {
-    font-family: 'Inter', sans-serif; /* Fuente */
+    font-family: 'Inter', sans-serif;
+    /* Fuente */
 }
 
 /* Estilos para el párrafo de texto */
 
 .texto__parrafo {
-    font-size: 32px; /* Tamaño de fuente */
-    font-weight: 400; /* Grosor de la fuente */
+    font-size: 32px;
+    /* Tamaño de fuente */
+    font-weight: 400;
+    /* Grosor de la fuente */
 }
