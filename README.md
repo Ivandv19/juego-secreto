@@ -18,7 +18,17 @@ El juego presenta al usuario un campo de entrada donde puede ingresar un número
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript+
+
+  ## Instalación
+
+1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
+```bash
+https://github.com/IvandevI9/juego-secreto.git
+```
+2. Abre el archivo `index.html` en tu navegador web.
+
+## Créditos
 
 ## Créditos
 
