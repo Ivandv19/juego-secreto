@@ -7,6 +7,7 @@ JS Game es un juego simple desarrollado en JavaScript que desafía al usuario a 
 El juego presenta al usuario un campo de entrada donde puede ingresar un número entre 1 y 10. Luego, al presionar el botón "Intentar", el juego verifica si el número ingresado coincide con el número aleatorio generado. Si coincide, el juego muestra un mensaje de éxito y habilita el botón "Nuevo juego" para que el usuario pueda jugar de nuevo. Si no coincide, el juego informa al usuario si el número ingresado es mayor o menor que el número aleatorio.
 
 ## Cómo jugar
+
 1. Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://juego-secreto-liart.vercel.app/).
 2. Abre el archivo `index.html` en tu navegador web.
 3. Ingresa un número entre 1 y 10 en el campo de entrada.
@@ -18,17 +19,15 @@ El juego presenta al usuario un campo de entrada donde puede ingresar un número
 
 - HTML5
 - CSS3
-- JavaScript+
+- JavaScript
 
-  ## Instalación
+## Instalación
 
 1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
 ```bash
 https://github.com/IvandevI9/juego-secreto.git
 ```
 2. Abre el archivo `index.html` en tu navegador web.
-
-## Créditos
 
 ## Créditos
 
