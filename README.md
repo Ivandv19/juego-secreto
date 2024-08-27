@@ -8,12 +8,11 @@ El juego presenta al usuario un campo de entrada donde puede ingresar un número
 
 ## Cómo jugar
 
-1. Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://juego-secreto-liart.vercel.app/).
-2. Abre el archivo `index.html` en tu navegador web.
-3. Ingresa un número entre 1 y 10 en el campo de entrada.
-4. Haz clic en el botón "Intentar" para verificar tu intento.
-5. Si adivinas el número, verás un mensaje de éxito y podrás jugar de nuevo haciendo clic en "Nuevo juego".
-6. Si no adivinas el número, el juego te indicará si el número ingresado es mayor o menor que el número aleatorio.
+1. Instala el repositorio de manera local y abre el archivo `index.html` en tu navegador web o visita el enlace desplegado en [Vercel](https://juego-secreto-liart.vercel.app/).
+2. Ingresa un número entre 1 y 10 en el campo de entrada.
+3. Haz clic en el botón "Intentar" para verificar tu intento.
+4. Si adivinas el número, verás un mensaje de éxito y podrás jugar de nuevo haciendo clic en "Nuevo juego".
+5. Si no adivinas el número, el juego te indicará si el número ingresado es mayor o menor que el número aleatorio.
 
 ## Tecnologías utilizadas
 
